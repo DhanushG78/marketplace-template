@@ -1,0 +1,4 @@
+﻿src/modules/items/components/ItemList.tsx(24,27): error TS2339: Property 'error' does not exist on type '{ items: any[]; loading: boolean; fetchItems: () => Promise<void>; }'.
+src/modules/items/components/ItemList.tsx(24,34): error TS2339: Property 'refetch' does not exist on type '{ items: any[]; loading: boolean; fetchItems: () => Promise<void>; }'.
+src/modules/items/components/ItemList.tsx(24,55): error TS2554: Expected 0 arguments, but got 1.
+src/modules/items/services/item.service.ts(69,11): error TS2739: Type '{ id: string; createdAt: string; }' is missing the following properties from type 'BaseItem': sellerId, title, price, description, images
